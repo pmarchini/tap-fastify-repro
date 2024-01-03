@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@isaacs/ts-node-temp-fork-for-pr-2009": "^10.9.5",
+    "fastify": "^4.25.2",
+    "tap": "^18.6.1"
+  },
+  "scripts": {
+    "test": "tap -t300 -b test/*.test.js -o output.log --coverage-report=cobertura"
+  },
+  "tap": {
+    "allow-incomplete-coverage": true
+  }
+}
