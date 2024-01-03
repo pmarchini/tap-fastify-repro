@@ -4,6 +4,7 @@ In order to start the repro :
 
 ```sh
 nvm use
+npm i
 make
 ```
 
