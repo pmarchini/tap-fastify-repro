@@ -5,7 +5,7 @@
     "tap": "^18.6.1"
   },
   "scripts": {
-    "test": "tap -t300 -b test/*.test.js -o output.log --coverage-report=cobertura"
+    "test": "tap -t300 -b test/*.test.js"
   },
   "tap": {
     "allow-incomplete-coverage": true

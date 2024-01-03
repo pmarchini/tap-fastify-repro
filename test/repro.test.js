@@ -10,7 +10,7 @@ tap.test('add function test', async (t) => {
     })
     
     t.afterEach(() => {
-        // server.close();
+        server.close();
     })
 
     t.test('first test', async (t) => {
